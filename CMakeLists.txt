@@ -11,7 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
     DIRECTORY msg
     FILES
-    PixelCoordinate.msg
+    PointOfInterest2D.msg
     FacialLandmarks.msg
     # list here the .msg files
 )
