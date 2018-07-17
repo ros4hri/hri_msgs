@@ -14,6 +14,7 @@ add_message_files(
     PointOfInterest2D.msg
     FacialLandmarks.msg
     Person.msg
+    Group.msg
     ActionUnits.msg
     FacesActionUnits.msg
     # list here the .msg files
