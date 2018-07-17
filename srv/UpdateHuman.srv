@@ -1,0 +1,18 @@
+# Creates or performs an update of an existing person instance.
+# Attention: *Only the fields with non-default value are updated*. This means
+# that this service *can not be used* to reset values to their defaults (see the
+# field 'reset' below to achieve that for face_id or body_id).
+
+Person person
+
+
+# This field is intended for face & skeleton trackers to signal they have lost the
+# face/skeleton
+# if this is true, then:
+# - one of face_id or body_id in the 'person' field must be set
+# - people with the corresponding face/body ID are selected from the humans_server database
+# - the face ID or body ID of these people is reset the the default NULL value
+bool reset
+
+---
+bool ok

@@ -29,6 +29,8 @@ add_action_files(
 add_service_files(
     DIRECTORY srv
     FILES
+    SelectHumans.srv
+    UpdateHuman.srv
     # list here the .srv files
 )
 
