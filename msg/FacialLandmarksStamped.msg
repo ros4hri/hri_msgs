@@ -1,13 +1,9 @@
-# This message contains a list of facial features detected in an image
+# This message contains a list of facial features detected on a face
 # (0, 0) is at top-left corner of image
 # Features' coordinates are expressed in pixels from the top-left corner.
 
-Header header        # Header timestamp should be acquisition time of image
-                     # Header frame_id should be optical frame of camera
-                     # origin of frame should be optical center of camera
-                     # +x should point to the right in the image
-                     # +y should point down in the image
-                     # +z should point into to plane of the image
+Header header        # Header timestamp should be acquisition time of the original image
+                     # Header frame_id is the *TF frame of the face*, *not* of the camera. The TF frame include the face's unique identifier.
 
 # Facial landmarks naming
 # Follows dlib and OpenPose convention
