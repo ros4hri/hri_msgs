@@ -1,17 +1,23 @@
 # Creates or performs an update of an existing person instance.
 # Attention: *Only the fields with non-default value are updated*. This means
-# that this service *can not be used* to reset values to their defaults (see the
-# field 'reset' below to achieve that for face_id or body_id).
+# that this service *can not be used* to reset values to their defaults.
+# (see the field 'reset' below to achieve that).
+#
+# Note that in any case, at least one of the fields person.face_id, 
+# person.body_id, person.person_id must be set for the service call to be valid.
 
 Person person
 
 
-# This field is intended for face & skeleton trackers to signal they have lost the
-# face/skeleton
-# if this is true, then:
-# - one of face_id or body_id in the 'person' field must be set
-# - people with the corresponding face/body ID are selected from the humans_server database
-# - the face ID or body ID of these people is reset the the default NULL value
+# If this field is set to true, the semantic of the call is changed from 
+# creating/updating a person's record, to re-setting to default values (ie, NULL)
+# *every non-default field in 'person'*.
+# This can be used by a face tracker or a skeleton tracker to reset to NULL a face
+# ID or a body ID when the corresponding face/skeleton is lost.
+# 
+# If as a result of the call, all the three fields person.face_id, person.body_id
+# and person.person_id are NULL, *the person record is deleted* from the humans' 
+# database.
 bool reset
 
 ---
