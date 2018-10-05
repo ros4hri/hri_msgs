@@ -11,21 +11,21 @@ before_install:
 
 install:
   - $SH "apt-get update"
-  - $SH "apt-get install -y locales curl gnupg"
+  - $SH "apt-get install -y locales curl gnupg git cmake g++"
   - $SH "locale-gen en_US.UTF-8"
   - $SH "curl http://repo.ros2.org/repos.key > ros2key"
   - $SH "apt-key add ros2key"
   - $SH "sh -c 'echo \"deb [arch=amd64,arm64] http://repo.ros2.org/ubuntu/main bionic main\" > /etc/apt/sources.list.d/ros2-latest.list'"
-  - $SH "apt update && apt install -y ros-bouncy-ros-base"
+  - $SH "apt update"
+  - $SH "DEBIAN_FRONTEND=noninteractive DEBCONF_NONINTERACTIVE_SEEN=true apt install -y ros-bouncy-ros-base"
 
 script:
-  - $SH "source /opt/ros/bouncy/setup.bash"
-  - $SH "ros2 topic"
+  - $SH "source /opt/ros/bouncy/setup.bash && ros2 topic"
   - $SH "ls"
+  - $SH "mkdir ros4hri-dev"
   - $SH "mkdir ros4hri && cd ros4hri"
   - $SH "git clone https://github.com/ros4hri/hri_msgs.git"
-  - $SH "cd hri_msgs && mkdir build && cd build"
-  - $SH "cmake .. && make"
+  - $SH "source /opt/ros/bouncy/setup.bash && cd hri_msgs && mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo -DFastRTPS_INCLUDE_DIR=/opt/ros/bouncy/include/fastrtps -DFastRTPS_LIBRARY_RELEASE=/opt/ros/bouncy/lib/fastrtps .. && make"
 
 notifications:
     email: false
