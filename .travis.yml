@@ -20,10 +20,6 @@ install:
   - $SH "DEBIAN_FRONTEND=noninteractive DEBCONF_NONINTERACTIVE_SEEN=true apt install -y ros-bouncy-ros-base"
 
 script:
-  - $SH "source /opt/ros/bouncy/setup.bash && ros2 topic"
-  - $SH "ls"
-  - $SH "mkdir ros4hri-dev"
-  - $SH "mkdir ros4hri && cd ros4hri"
   - $SH "git clone https://github.com/ros4hri/hri_msgs.git"
   - $SH "source /opt/ros/bouncy/setup.bash && cd hri_msgs && mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo -DFastRTPS_INCLUDE_DIR=/opt/ros/bouncy/include/fastrtps -DFastRTPS_LIBRARY_RELEASE=/opt/ros/bouncy/lib/fastrtps .. && make"
 
