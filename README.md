@@ -1,6 +1,8 @@
 hri_msgs
 ========
 
+[![Build Status](https://travis-ci.com/ros4hri/hri_msgs.svg?branch=master)](https://travis-ci.com/ros4hri/hri_msgs)
+
 This repository contains a set of ROS messages (ie, interfaces) of importance
 for human-robot interaction applications.
 
