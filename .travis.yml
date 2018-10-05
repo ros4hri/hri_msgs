@@ -13,13 +13,16 @@ install:
   - $SH "apt-get update"
   - $SH "apt-get install -y locales curl"
   - $SH "locale-gen en_US.UTF-8"
-  - $SH "curl http://repo.ros2.org/repos.key | sudo apt-key add -"
+  - $SH "curl http://repo.ros2.org/repos.key > ros2key"
+  - $SH "sudo apt-key add ros2key"
   - $SH "sudo sh -c 'echo \"deb [arch=amd64,arm64] http://repo.ros2.org/ubuntu/main `lsb_release -cs` main\" > /etc/apt/sources.list.d/ros2-latest.list'"
   - $SH "sudo apt update && sudo apt install ros-bouncy-ros-base"
-  - $SH "source /opt/ros/bouncy/setup.bash"
 
 script:
+  - $SH "source /opt/ros/bouncy/setup.bash"
   - $SH "ros2 topic"
+  - $SH "ls"
+  - $SH "mkdir ros4hri && cd ros4hri"
 
 notifications:
     email: false
