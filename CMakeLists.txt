@@ -12,7 +12,8 @@ add_message_files(
     DIRECTORY msg
     FILES
     PointOfInterest2D.msg
-    FacialLandmarks.msg
+    FacesLandmarks.msg
+    FacialLandmarksStamped.msg
     Person.msg
     Group.msg
     ActionUnits.msg
