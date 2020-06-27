@@ -18,6 +18,8 @@ add_message_files(
     Group.msg
     ActionUnits.msg
     FacesActionUnits.msg
+    Skeleton2D.msg
+    SkelePoints.msg
     # list here the .msg files
 )
 
