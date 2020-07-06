@@ -19,7 +19,6 @@ add_message_files(
     ActionUnits.msg
     FacesActionUnits.msg
     Skeleton2D.msg
-    SkelePoints.msg
     # list here the .msg files
 )
 
