@@ -1,25 +1,30 @@
-Header header
+# This message contains a list of skeletal keypoints 
+# (0, 0) is at top-left corner of image
 
+Header header        # Header timestamp should be acquisition time of the original image
 
+# skeletal key Points naming
+# Follows OpenPose coco model convention
+# https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/output.md#pose-output-format-coco
 
-uint8 Nose = 0
-uint8 Neck = 1
-uint8 Right_Shoulder = 2
-uint8 Right_Elbow = 3
-uint8 Right_Wrist = 4
-uint8 Left_Shoulder = 5
-uint8 Left_Elbow = 6
-uint8 Left_Wrist = 7
-uint8 Right_Hip = 8
-uint8 Right_Knee = 9
-uint8 Right_Ankel = 10
-uint8 Left_Hip = 11
-uint8 Left_Knee = 12
-uint8 Left_Ankel = 13
-uint8 Left_Eye = 14
-uint8 Right_Eye = 15
-uint8 Left_Ear = 16
-uint8 Right_Ear = 17
+uint8 NOSE = 0
+uint8 NECK = 1
+uint8 RIGHT_SHOULDER = 2
+uint8 RIGHT_ELBLOW = 3
+uint8 RIGHT_WRIST = 4
+uint8 LEFT_SHOULDER = 5
+uint8 LEFT_ELBLOW = 6
+uint8 LEFT_WRIST = 7
+uint8 RIGHT_HIP = 8
+uint8 RIGHT_KNEE = 9
+uint8 RIGHT_ANKEL = 10
+uint8 LEFT_HIP = 11
+uint8 LEFT_KNEE = 12
+uint8 LEFT_ANKEL = 13
+uint8 LEFT_EYE = 14
+uint8 RIGHT_EYE = 15
+uint8 LEFT_EAR = 16
+uint8 RIGHT_EAR = 17
 
 
 PointOfInterest2D[] skeleton
