@@ -1,4 +1,4 @@
 std_msgs/Header header
 
-social_nets/Face[] faces
+Face[] faces
 uint32 count

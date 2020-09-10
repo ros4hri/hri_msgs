@@ -19,6 +19,15 @@ string body_id
 # face recognition ID. This ID might or might not be set.
 string person_id
 
+# basic emotion for each person 
+Emotion[] emotions
+
+#age and gender 
+AgeGender[] agegenders
+
+# yaw, roll and pitch of each person detected
+HeadPose[] headposes
+
 time last_seen # the special value 0 means 'never seen'.
 
 # This value encodes the confidence the robot has abouti knowing the person's location.
