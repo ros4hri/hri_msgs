@@ -1,32 +1,30 @@
-# Refer to https://caidin.brl.ac.uk/ROS4HRI/main/wikis/Human-representation for
+# Refer to https://git.brl.ac.uk/ROS4HRI/main/wikis/Human-representation for
 # detailled documentation.
 
-# This message contains mostly static data, intended to be updated at low frequency
+# This message in published at a set interval by the human_server
 
-
-# See https://caidin.brl.ac.uk/ROS4HRI/main/wikis/Human-representation for the
+# See https://git.brl.ac.uk/ROS4HRI/main/wikis/Human-representation for the
 # semantics and interplay between the 3 identifiers
 
 # unique ID identifying the face of the person. This ID might or might not be
 # set, and is not permanent.
 string face_id
 
+# The corresponding face model. Will be set if and only if face_id is set as well.
+Face face
+
 # unique ID identifying the skeleton of the person. This ID might or might not
 # be set, and is not permanent.
 string body_id
+
+# The corresponding body model. Will be set if and only if body_id is set as well.
+Body body
+
 
 # unique ID, that typically persists over interactions - for instance, internal
 # face recognition ID. This ID might or might not be set.
 string person_id
 
-# basic emotion for each person 
-Emotion[] emotions
-
-#age and gender 
-AgeGender[] agegenders
-
-# yaw, roll and pitch of each person detected
-HeadPose[] headposes
 
 time last_seen # the special value 0 means 'never seen'.
 
@@ -57,13 +55,6 @@ float32 location_known_confidence
 string name
 
 # demographics
-uint8 age
-float32 age_confidence
-
-uint8 UNDEFINED=0
-uint8 FEMALE=1
-uint8 MALE=2
-uint8 gender # one of UNDEFINED, FEMALE, MALE
-float32 gender_confidence 
+AgeGender demographics
 
 string native_language # use IETF language codes like EN_gb. No value set means unknown language.
