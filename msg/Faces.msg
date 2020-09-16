@@ -1,1 +1,1 @@
-FaceROIStamped[] faces
+FaceStamped[] faces
