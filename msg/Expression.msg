@@ -11,7 +11,7 @@ uint8 SURPRISE=4
 uint8 DISGUST=5
 uint8 FEAR=6
 
-uint8 expression                     # The expression for the detected face in roi
+uint8 expression
 
 # Valence/Arousal model of emotions
 float32 valence # from -1.0 to +1.0
