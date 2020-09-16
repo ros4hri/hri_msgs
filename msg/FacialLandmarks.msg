@@ -2,9 +2,6 @@
 # (0, 0) is at top-left corner of image
 # Features' coordinates are expressed in pixels from the top-left corner.
 
-Header header        # Header timestamp should be acquisition time of the original image
-                     # Header frame_id is the *TF frame of the face*, *not* of the camera. The TF frame include the face's unique identifier.
-
 # Facial landmarks naming
 # Follows dlib and OpenPose convention
 # https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/output.md#face-output-format
