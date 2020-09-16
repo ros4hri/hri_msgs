@@ -1,4 +1,2 @@
-Header header
-
-uint8 sender
-uint8 receiver
+string sender_face_id
+string receiver_face_id
