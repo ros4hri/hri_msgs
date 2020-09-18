@@ -12,13 +12,18 @@ add_message_files(
     DIRECTORY msg
     FILES
     PointOfInterest2D.msg
-    FacesLandmarks.msg
-    FacialLandmarksStamped.msg
+    FacialLandmarks.msg
     Person.msg
     Group.msg
-    ActionUnits.msg
-    FacesActionUnits.msg
+    GroupStamped.msg
+    FacialActionUnits.msg
     Skeleton2D.msg
+    AgeGender.message
+    BodyLang.msg
+    Expression.msg
+    GazeSenderReceiver.msgs
+    GazesStamped.message
+
     # list here the .msg files
 )
 
