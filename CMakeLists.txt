@@ -11,11 +11,16 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
     DIRECTORY msg
     FILES
-    PointOfInterest2D.msg
+    AgeGender.msg
+    BodyAttitude.msg
+    Expression.msg
+    FacialActionUnits.msg
     FacialLandmarks.msg
-    Person.msg
+    GazeSenderReceiver.msg
+    GazesStamped.msg
     Group.msg
     GroupsStamped.msg
+<<<<<<< HEAD
     FacialActionUnits.msg
     Skeleton2D.msg
     AgeAndGender.msg
@@ -23,6 +28,9 @@ add_message_files(
     Expression.msg
     GazeSenderReceiver.msg
     GazesStamped.msg
+=======
+    PointOfInterest2D.msg
+>>>>>>> 1efe531eeffcfe2563d76bb7d098572422602a93
 
     # list here the .msg files
 )
@@ -36,8 +44,6 @@ add_action_files(
 add_service_files(
     DIRECTORY srv
     FILES
-    SelectHumans.srv
-    UpdateHuman.srv
     # list here the .srv files
 )
 
