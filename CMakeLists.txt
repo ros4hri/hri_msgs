@@ -15,14 +15,14 @@ add_message_files(
     FacialLandmarks.msg
     Person.msg
     Group.msg
-    GroupStamped.msg
+    GroupsStamped.msg
     FacialActionUnits.msg
     Skeleton2D.msg
-    AgeGender.message
-    BodyLang.msg
+    AgeAndGender.msg
+    BodyPose.msg
     Expression.msg
-    GazeSenderReceiver.msgs
-    GazesStamped.message
+    GazeSenderReceiver.msg
+    GazesStamped.msg
 
     # list here the .msg files
 )

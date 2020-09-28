@@ -10,15 +10,15 @@
 # set, and is not permanent.
 string face_id
 
-# The corresponding face model. Will be set if and only if face_id is set as well.
-Face face
+# # The corresponding face model. Will be set if and only if face_id is set as well.
+# Face face
 
 # unique ID identifying the skeleton of the person. This ID might or might not
 # be set, and is not permanent.
 string body_id
 
-# The corresponding body model. Will be set if and only if body_id is set as well.
-Body body
+# # The corresponding body model. Will be set if and only if body_id is set as well.
+# Body body
 
 
 # unique ID, that typically persists over interactions - for instance, internal
@@ -55,6 +55,6 @@ float32 location_known_confidence
 string name
 
 # demographics
-AgeGender demographics
+AgeAndGender demographics
 
 string native_language # use IETF language codes like EN_gb. No value set means unknown language.
