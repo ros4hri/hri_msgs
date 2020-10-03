@@ -4,9 +4,9 @@
 
 # Eckman model of emotions
 uint8 NEUTRAL=0
-uint8 happy=1
-uint8 sad=2
-uint8 anger=3
+uint8 HAPPY=1
+uint8 SAD=2
+uint8 ANGER=3
 uint8 SURPRISE=4
 uint8 DISGUST=5
 uint8 FEAR=6
