@@ -1,6 +1,7 @@
 # This message contains a list of facial features detected on a face
 # (0, 0) is at top-left corner of image
-# Features' coordinates are expressed in pixels from the top-left corner.
+# Features' coordinates are expressed in normalised pixel coordinates 
+# (in the range [0., 1.]), from the top-left corner.
 
 # Facial landmarks naming
 # Follows dlib and OpenPose convention
