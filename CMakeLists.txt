@@ -1,10 +1,11 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.0.0)
 project(hri_msgs)
 
 find_package(catkin REQUIRED COMPONENTS
   message_generation
   actionlib_msgs
   geometry_msgs
+  sensor_msgs
   # add here the other types your message depends on
 )
 
@@ -22,6 +23,8 @@ add_message_files(
     GroupsStamped.msg
     Skeleton2D.msg
     PointOfInterest2D.msg
+    IdsList.msg
+    RegionOfInterestStamped.msg
 
     # list here the .msg files
 )
@@ -42,6 +45,7 @@ generate_messages(
     DEPENDENCIES
     actionlib_msgs
     geometry_msgs
+    sensor_msgs
     # repeat here the dependencies
 )
 
@@ -49,6 +53,7 @@ catkin_package(
     CATKIN_DEPENDS 
     actionlib_msgs
     geometry_msgs
+    sensor_msgs
     # repeat here the dependencies
 )
 
