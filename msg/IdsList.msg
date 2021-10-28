@@ -2,4 +2,5 @@
 # ids...).
 # It is for instance published on /humans/faces/tracked to access the list of
 # currently detected faces.
+Header header
 string[] ids
