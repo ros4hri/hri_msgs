@@ -3,10 +3,7 @@ project(hri_msgs)
 
 find_package(catkin REQUIRED COMPONENTS
   message_generation
-  actionlib_msgs
-  geometry_msgs
   sensor_msgs
-  # add here the other types your message depends on
 )
 
 add_message_files(
@@ -29,32 +26,15 @@ add_message_files(
     # list here the .msg files
 )
 
-add_action_files(
-    DIRECTORY action
-    FILES
-    # list here the .action files
-)
-
-add_service_files(
-    DIRECTORY srv
-    FILES
-    # list here the .srv files
-)
 
 generate_messages(
     DEPENDENCIES
-    actionlib_msgs
-    geometry_msgs
     sensor_msgs
-    # repeat here the dependencies
 )
 
 catkin_package(
     CATKIN_DEPENDS 
-    actionlib_msgs
-    geometry_msgs
     sensor_msgs
-    # repeat here the dependencies
 )
 
 
