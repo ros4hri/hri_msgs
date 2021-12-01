@@ -21,6 +21,7 @@ add_message_files(
     Skeleton2D.msg
     PointOfInterest2D.msg
     IdsList.msg
+    IdsMatch.msg
     RegionOfInterestStamped.msg
 
     # list here the .msg files

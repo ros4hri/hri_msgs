@@ -2,8 +2,14 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Added IdsMatch.msg to publish potential matches between face/body/voice ids
+  and person ids
+
 0.1.1 (2021-11-09)
 ------------------
+* Added CHANGELOG
 
 0.1.0 (2021-11-09)
 ------------------
