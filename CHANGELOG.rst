@@ -2,8 +2,8 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.2.1 (2022-01-12)
+------------------
 * update CMakeLists following removing/renaming of messages
 * Contributors: Séverin Lemaignan
 
