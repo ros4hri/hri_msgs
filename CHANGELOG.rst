@@ -2,6 +2,16 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* AgeAndGender.msg -> SoftBiometrics.msg
+* remove RoIStamped, as not necessary
+  The original rationale was to be able to match the RoI to the orginal sourc eimage via the timestamp,
+  but it was clunky, and we have decided instead to republish the face image under cropped, alleviating
+  the need for the connection to the source image.
+* IdsMatch: revise semantic to enable eg face<->body matches
+* Contributors: Séverin Lemaignan
+
 0.1.2 (2021-12-01)
 ------------------
 * Added IdsMatch.msg to publish potential matches between face/body/voice ids
