@@ -9,7 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
     DIRECTORY msg
     FILES
-    AgeAndGender.msg
+    SoftBiometrics.msg
     BodyAttitude.msg
     Expression.msg
     FacialActionUnits.msg
@@ -22,7 +22,6 @@ add_message_files(
     PointOfInterest2D.msg
     IdsList.msg
     IdsMatch.msg
-    RegionOfInterestStamped.msg
 
     # list here the .msg files
 )
