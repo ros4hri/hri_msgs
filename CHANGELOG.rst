@@ -2,6 +2,11 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* update CMakeLists following removing/renaming of messages
+* Contributors: Séverin Lemaignan
+
 0.2.0 (2022-01-12)
 ------------------
 * AgeAndGender.msg -> SoftBiometrics.msg
