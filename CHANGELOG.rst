@@ -2,8 +2,8 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.2.0 (2022-01-12)
+------------------
 * AgeAndGender.msg -> SoftBiometrics.msg
 * remove RoIStamped, as not necessary
   The original rationale was to be able to match the RoI to the orginal sourc eimage via the timestamp,
