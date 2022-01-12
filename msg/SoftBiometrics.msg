@@ -1,4 +1,4 @@
-# this message discribes the age and gender of each person detected
+# This message describes soft biometrics (age and gender)
 
 uint8 age
 float32 age_confidence
