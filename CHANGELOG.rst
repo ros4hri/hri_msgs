@@ -2,8 +2,8 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.3.0 (2022-01-21)
+------------------
 
 * remove GroupsStamped and GazesStamped
   GroupsStamped and GazesStamped are essentially arrays of Groups and Gazes, they are not needed as
