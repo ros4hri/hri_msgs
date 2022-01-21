@@ -2,6 +2,16 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
+* remove GroupsStamped and GazesStamped
+  GroupsStamped and GazesStamped are essentially arrays of Groups and Gazes, they are not needed as
+  nodes would simply publish several message on the corresponding topics
+* {GazeSenderReceiver->Gaze}.msg and rename fields in Group.msg and GazeSenderReceiver.msg
+* add LiveSpeech.msg for encoding of incremental results of speech-to-text
+* Contributors: Séverin Lemaignan
+
 0.2.1 (2022-01-12)
 ------------------
 * update CMakeLists following removing/renaming of messages
