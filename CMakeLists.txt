@@ -14,10 +14,8 @@ add_message_files(
     Expression.msg
     FacialActionUnits.msg
     FacialLandmarks.msg
-    GazeSenderReceiver.msg
-    GazesStamped.msg
+    Gaze.msg
     Group.msg
-    GroupsStamped.msg
     Skeleton2D.msg
     PointOfInterest2D.msg
     IdsList.msg
