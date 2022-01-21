@@ -1,5 +1,5 @@
 
 string group_id
 
-# list of people in this group
-string[] person_ids
+# List of person IDs of the people in this group
+string[] members
