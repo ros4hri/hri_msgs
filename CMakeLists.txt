@@ -10,7 +10,8 @@ add_message_files(
     DIRECTORY msg
     FILES
     SoftBiometrics.msg
-    BodyAttitude.msg
+    BodyPosture.msg
+    Gesture.msg
     Expression.msg
     FacialActionUnits.msg
     FacialLandmarks.msg
