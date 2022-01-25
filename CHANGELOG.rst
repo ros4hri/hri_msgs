@@ -2,8 +2,8 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.4.1 (2022-01-25)
+------------------
 * CMakeLists: update references to BodyPosture and Gesture messages
 * add BSD LICENSE file
 * Contributors: Séverin Lemaignan
