@@ -2,6 +2,12 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* CMakeLists: update references to BodyPosture and Gesture messages
+* add BSD LICENSE file
+* Contributors: Séverin Lemaignan
+
 0.4.0 (2022-01-25)
 ------------------
 * split BodyAttitude into BodyPosture and Gesture
