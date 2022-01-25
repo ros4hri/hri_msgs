@@ -2,6 +2,11 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* split BodyAttitude into BodyPosture and Gesture
+* Contributors: Séverin Lemaignan
+
 0.3.0 (2022-01-21)
 ------------------
 
