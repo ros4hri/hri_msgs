@@ -5,7 +5,7 @@
 
 # Facial landmarks naming
 # Follows dlib and OpenPose convention
-# https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/output.md#face-output-format
+# https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/02_output.md#face-output-format
 uint8 RIGHT_EAR=0
 uint8 RIGHT_PROFILE_1=1
 uint8 RIGHT_PROFILE_2=2
