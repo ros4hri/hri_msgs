@@ -2,6 +2,13 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add social engagement msg with 5 discrete levels
+* add confidence to Expression message
+* update README
+* Contributors: Séverin Lemaignan
+
 0.4.1 (2022-01-25)
 ------------------
 * CMakeLists: update references to BodyPosture and Gesture messages
