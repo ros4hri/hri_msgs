@@ -16,3 +16,5 @@ uint8 expression
 # Valence/Arousal model of emotions
 float32 valence # from -1.0 to +1.0
 float32 arousal # from -1.0 to +1.0
+
+float32 confidence # from 0.0 to 1.0
