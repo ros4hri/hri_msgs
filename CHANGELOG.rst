@@ -2,8 +2,8 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.5.0 (2022-05-02)
+------------------
 * add social engagement msg with 5 discrete levels
 * add confidence to Expression message
 * update README
