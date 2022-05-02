@@ -1,6 +1,6 @@
 # This message encodes possible matches between transient IDs (face, body,
 # voice) and permanent IDs (person), with their corresponding confidence level.
-# Such messages should be published on the /humans/id_association topic.
+# Such messages should be published on the /humans/candidate_matches topic.
 #
 # For instance, a face recognition module might publish the following message
 # to indicate that face 'a3eb4' has been recognised with 63% confidence as
