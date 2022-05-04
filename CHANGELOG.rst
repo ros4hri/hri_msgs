@@ -2,6 +2,11 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* omitted to update CMakeLists
+* Contributors: Séverin Lemaignan
+
 0.5.1 (2022-05-04)
 ------------------
 * add more info about the EngagementLevel msg
