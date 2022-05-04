@@ -13,6 +13,7 @@ add_message_files(
     BodyPosture.msg
     Gesture.msg
     Expression.msg
+    EngagementLevel.msg
     FacialActionUnits.msg
     FacialLandmarks.msg
     Gaze.msg
