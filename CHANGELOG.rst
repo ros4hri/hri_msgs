@@ -2,6 +2,11 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add more info about the EngagementLevel msg
+* Contributors: antonioandriella
+
 0.5.0 (2022-05-02)
 ------------------
 * add social engagement msg with 5 discrete levels
