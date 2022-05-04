@@ -2,8 +2,8 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.5.1 (2022-05-04)
+------------------
 * add more info about the EngagementLevel msg
 * Contributors: antonioandriella
 
