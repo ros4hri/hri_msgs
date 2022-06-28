@@ -2,6 +2,12 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* expressions: expand list + use string constants
+  The list is based on Chambers' MSc thesis, Bristol Robotics lab 2020
+* Contributors: Séverin Lemaignan
+
 0.6.0 (2022-06-01)
 ------------------
 * revise IdsMatch to enable associations between any 2 ids, incl ids of same type
