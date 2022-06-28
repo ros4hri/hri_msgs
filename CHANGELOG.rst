@@ -2,8 +2,8 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.7.0 (2022-06-28)
+------------------
 * expressions: expand list + use string constants
   The list is based on Chambers' MSc thesis, Bristol Robotics lab 2020
 * Contributors: Séverin Lemaignan
