@@ -9,7 +9,9 @@
 # if only `id1` is set, and `id1_type` is *not* PERSON, then:
 #  - an 'anonymous' person is created, whose ID will match the face/body/voice ID
 #  - that person's `/anonymous` subtopic will publish the value 'true'
-#  - the confidence value is ignored
+#  - similar to regular persons, a confidence value of 0.0 means that the
+#  anonymous person does not exist anymore (typically because the corresponding
+#  face/body/voice is not seen/heard anymore)
 #
 # Note that setting only `id2` or setting only `id1` with `id1_type == PERSON`
 # are both invalid.
