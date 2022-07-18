@@ -1,4 +1,5 @@
 # Describes the general body posture in a symbolic manner.
+Header header
 
 uint8 STANDING = 1
 uint8 SITTING = 2
