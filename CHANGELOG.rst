@@ -2,8 +2,8 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.7.2 (2022-07-20)
+------------------
 * Merge branch 'gaze-style' into 'master'
   create LookAtWithStyle.msg
   See merge request ros4hri/hri_msgs!3
