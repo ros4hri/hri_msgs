@@ -22,7 +22,7 @@ add_message_files(
     PointOfInterest2D.msg
     IdsList.msg
     IdsMatch.msg
-
+    LiveSpeech.msg
     # list here the .msg files
 )
 
