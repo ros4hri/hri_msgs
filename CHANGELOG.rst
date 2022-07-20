@@ -2,6 +2,12 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add missing 'AudioFeatures.msg' and 'LiveSpeech.msg' to CMakeLists
+* [IdsMatch] clarify semantic of confidence level for anonymous persons
+* Contributors: Séverin Lemaignan, saracooper
+
 0.7.0 (2022-06-28)
 ------------------
 * expressions: expand list + use string constants
