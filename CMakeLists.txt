@@ -9,20 +9,22 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
     DIRECTORY msg
     FILES
-    SoftBiometrics.msg
+    AudioFeatures.msg
     BodyPosture.msg
-    Gesture.msg
-    Expression.msg
     EngagementLevel.msg
+    Expression.msg
     FacialActionUnits.msg
     FacialLandmarks.msg
     Gaze.msg
+    Gesture.msg
     Group.msg
-    Skeleton2D.msg
-    PointOfInterest2D.msg
     IdsList.msg
     IdsMatch.msg
     LiveSpeech.msg
+    PointOfInterest2D.msg
+    Skeleton2D.msg
+    SoftBiometrics.msg
+
     # list here the .msg files
 )
 
