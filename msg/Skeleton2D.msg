@@ -27,6 +27,6 @@ uint8 LEFT_EAR = 16
 uint8 RIGHT_EAR = 17
 
 
-PointOfInterest2D[] skeleton
+NormalizedPointOfInterest2D[] skeleton
 
 

@@ -22,7 +22,8 @@ add_message_files(
     IdsMatch.msg
     LiveSpeech.msg
     LookAtWithStyle.msg
-    PointOfInterest2D.msg
+    NormalizedPointOfInterest2D.msg
+    NormalizedRegionOfInterest2D.msg
     Skeleton2D.msg
     SoftBiometrics.msg
 
