@@ -1,4 +1,5 @@
 # This message describes soft biometrics (age and gender)
+Header header
 
 uint8 age
 float32 age_confidence
