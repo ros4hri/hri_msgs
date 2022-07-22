@@ -2,6 +2,24 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.2 (2022-07-20)
+------------------
+* Merge branch 'gaze-style' into 'master'
+  create LookAtWithStyle.msg
+  See merge request ros4hri/hri_msgs!3
+* create LookAtWithStyle.msg
+  users can specify how the GazeManager creates trajectories using the
+  `style` member.
+  currently NORMAL (using both neck and eyes) as well as EYES_ONLY and
+  NECK_ONLY exist and are supported by the GazeManager v2.
+* Contributors: Séverin Lemaignan, llach
+
+0.7.1 (2022-07-20)
+------------------
+* add missing 'AudioFeatures.msg' and 'LiveSpeech.msg' to CMakeLists
+* [IdsMatch] clarify semantic of confidence level for anonymous persons
+* Contributors: Séverin Lemaignan, saracooper
+
 0.7.0 (2022-06-28)
 ------------------
 * expressions: expand list + use string constants
