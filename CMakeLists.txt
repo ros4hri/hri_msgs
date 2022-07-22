@@ -19,7 +19,8 @@ add_message_files(
     Gaze.msg
     Group.msg
     Skeleton2D.msg
-    PointOfInterest2D.msg
+    NormalizedPointOfInterest2D.msg
+    NormalizedRegionOfInterest2D.msg
     IdsList.msg
     IdsMatch.msg
 

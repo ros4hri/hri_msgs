@@ -89,7 +89,7 @@ uint8 MOUTH_INNER_BOTTOM_1=67
 uint8 MOUTH_INNER_BOTTOM_2=66
 uint8 MOUTH_INNER_BOTTOM_3=65
 
-PointOfInterest2D[] landmarks # the ordering of landmarks must follow the indices defined above
+NormalizedPointOfInterest2D[] landmarks # the ordering of landmarks must follow the indices defined above
 
 uint32 height         # image height in pixels, that is, number of rows
 uint32 width          # image width in pixels, that is, number of columns
