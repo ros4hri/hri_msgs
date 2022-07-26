@@ -2,7 +2,7 @@
 # (0, 0) is at top-left corner of image
 # Features' coordinates are expressed in normalised pixel coordinates 
 # (in the range [0., 1.]), from the top-left corner.
-Header header
+IdHeader header
 
 # Facial landmarks naming
 # Follows dlib and OpenPose convention

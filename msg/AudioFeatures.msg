@@ -6,6 +6,8 @@
 # They can be extract using the OpenSMILE toolkit with the present
 # IS09_emotion.conf
 
+IdHeader header
+
 float32 ZCR # zero-crossing rate from the time signal
 float32 RMS # root mean square frame energy
 float32 pitch # pitch frequency (normalised to 500 Hz)

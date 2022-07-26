@@ -1,8 +1,7 @@
 # This message encodes the live result of a speech recognition process.
 # A series of incremental results might be provided, until a final recognition
 # hypothesis is returned.
-
-Header header
+IdHeader header
 
 string incremental # incremental recognition results
 string final # final recognised text
