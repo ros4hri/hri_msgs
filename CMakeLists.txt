@@ -21,7 +21,6 @@ add_message_files(
     IdsList.msg
     IdsMatch.msg
     LiveSpeech.msg
-    LookAtWithStyle.msg
     NormalizedPointOfInterest2D.msg
     NormalizedRegionOfInterest2D.msg
     Skeleton2D.msg
