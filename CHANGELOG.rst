@@ -2,6 +2,16 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add Stamped and unstamped versions of NormalizedPointOfInterest2d
+* move LookAtWithStyle.msg to hri_actions_msgs
+* Rename point and region of interest messages to
+  'Normalized[PointOfInterest2d|RegionOfInterest2D]'
+* Add RegionOfInterest2D messages
+  This message represents a 2D region-of-interest with an associated confidence. The message contains a `Header`-type field to allow easy synchronisation with other messages.
+* Contributors: Francesco Tonini, Séverin Lemaignan
+
 0.7.2 (2022-07-20)
 ------------------
 * Merge branch 'gaze-style' into 'master'
