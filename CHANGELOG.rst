@@ -2,8 +2,8 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.8.0 (2022-08-31)
+------------------
 * add Stamped and unstamped versions of NormalizedPointOfInterest2d
 * move LookAtWithStyle.msg to hri_actions_msgs
 * Rename point and region of interest messages to
