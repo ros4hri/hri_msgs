@@ -6,15 +6,8 @@
 # This can be use for instance if one of the ID (eg, a face id) is not valid anymore
 # (face not tracked anymore)
 #
-# if only `id1` is set, and `id1_type` is *not* PERSON, then:
-#  - an 'anonymous' person is created, whose ID will match the face/body/voice ID
-#  - that person's `/anonymous` subtopic will publish the value 'true'
-#  - similar to regular persons, a confidence value of 0.0 means that the
-#  anonymous person does not exist anymore (typically because the corresponding
-#  face/body/voice is not seen/heard anymore)
-#
-# Note that setting only `id2` or setting only `id1` with `id1_type == PERSON`
-# are both invalid.
+# Note that setting only one of `id1` or `id2` is invalid. Likewise, `id1` and
+# `id2` can not be equal.
 #
 # ## Examples
 #
@@ -30,13 +23,6 @@
 #
 # {id1: 'ff424', id1_type: FACE, id2: '850d1', id2_type: BODY, confidence:
 # 1.0, }
-#
-# Example of an 'anonymous' face: a face _detector_ (ie, not performing face
-# recognition) can publish the following message to inform the system that an
-# (so far anonymous) person has been detected:
-#
-# {id1: 'ff424', id1_type: FACE, confidence: 0.0,
-# }
 #
 
 int8 UNSET=0
