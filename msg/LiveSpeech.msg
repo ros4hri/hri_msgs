@@ -9,4 +9,4 @@ string final # final recognised text
 
 float64 confidence # confidence of the final recognised speech, [0-1]
 
-
+string language # IETF language code, e.g. 'en-GB'
