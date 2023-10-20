@@ -35,7 +35,7 @@ string CONFUSED="confused"
 string AMAZED="amazed"
 string EXCITED="excited"
 
-string expression
+string expression # one of the listed expressions
 
 # Valence/Arousal model of emotions
 float32 valence # from -1.0 to +1.0
