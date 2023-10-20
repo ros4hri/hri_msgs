@@ -2,8 +2,8 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.9.0 (2023-10-20)
+------------------
 * add IETF language code to LiveSpeech
 * remove unused FAU field
 * [doc] improve messages documentation
