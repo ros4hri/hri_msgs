@@ -2,6 +2,15 @@
 Changelog for package hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add IETF language code to LiveSpeech
+* remove unused FAU field
+* [doc] improve messages documentation
+* [doc] anonymous person are not supposed to be created via semi-defined match
+* remove unused travis configuration
+* Contributors: Luka Juricic, Séverin Lemaignan
+
 0.8.0 (2022-08-31)
 ------------------
 * add Stamped and unstamped versions of NormalizedPointOfInterest2d
