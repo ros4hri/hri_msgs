@@ -3,7 +3,7 @@
 
 Header header        # Header timestamp should be acquisition time of the original image
 
-# skeletal key Points naming
+# skeletal key points codes
 # Follows OpenPose coco model convention
 # https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/output.md#pose-output-format-coco
 
@@ -26,7 +26,7 @@ uint8 RIGHT_EYE = 15
 uint8 LEFT_EAR = 16
 uint8 RIGHT_EAR = 17
 
-
+# array of 18 skeletal key points coordinates, one per skeletal key point, ordered per skeletal key points codes
 NormalizedPointOfInterest2D[] skeleton
 
 

@@ -4,7 +4,7 @@
 # (in the range [0., 1.]), from the top-left corner.
 Header header
 
-# Facial landmarks naming
+# Facial landmarks codes
 # Follows dlib and OpenPose convention
 # https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/02_output.md#face-output-format
 uint8 RIGHT_EAR=0
@@ -90,7 +90,8 @@ uint8 MOUTH_INNER_BOTTOM_1=67
 uint8 MOUTH_INNER_BOTTOM_2=66
 uint8 MOUTH_INNER_BOTTOM_3=65
 
-NormalizedPointOfInterest2D[] landmarks # the ordering of landmarks must follow the indices defined above
+# array of 70 landmark normalized coordinates, one per landmark, ordered per landmarks codes
+NormalizedPointOfInterest2D[] landmarks
 
-uint32 height         # image height in pixels, that is, number of rows
-uint32 width          # image width in pixels, that is, number of columns
+uint32 height # image height in pixels, that is, number of rows
+uint32 width # image width in pixels, that is, number of columns

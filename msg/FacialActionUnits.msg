@@ -4,6 +4,7 @@
 
 Header header
 
+# AU codes
 # List taken from https://en.wikipedia.org/wiki/Facial_Action_Coding_System
 
 # Main codes
@@ -93,6 +94,6 @@ uint8 SHIVER_TREMBLE=97  # Shiver/tremble
 uint8 FAST_UP_DOWN_LOOK=98  # Fast up-down look
 
 
-float32[] intensity # an array of 99 floats, one per AU. Use the constant defined above to access one specific AU.
-float32[] confidence # an array of 99 floats, one per AU. Use the constant defined above to access one specific AU.
+float32[] intensity # array of 99 AUs intensities, one per AU, ordered per AU codes
+float32[] confidence # array of 99 AUs intensity confidences, one per AU, ordered per AU codes
 
