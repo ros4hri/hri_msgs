@@ -92,7 +92,7 @@ uint8 PARTIAL_FLASH=92  # Partial flash
 uint8 SHIVER_TREMBLE=97  # Shiver/tremble
 uint8 FAST_UP_DOWN_LOOK=98  # Fast up-down look
 
-float32[] FAU
+
 float32[] intensity # an array of 99 floats, one per AU. Use the constant defined above to access one specific AU.
 float32[] confidence # an array of 99 floats, one per AU. Use the constant defined above to access one specific AU.
 
