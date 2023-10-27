@@ -1,7 +1,7 @@
 # This message contains a list of skeletal keypoints 
 # (0, 0) is at top-left corner of image
 
-Header header        # Header timestamp should be acquisition time of the original image
+std_msgs/Header header # Header timestamp should be acquisition time of the original image
 
 # skeletal key points codes
 # Follows OpenPose coco model convention
@@ -27,6 +27,6 @@ uint8 LEFT_EAR = 16
 uint8 RIGHT_EAR = 17
 
 # array of 18 skeletal key points coordinates, one per skeletal key point, ordered per skeletal key points codes
-NormalizedPointOfInterest2D[] skeleton
+NormalizedPointOfInterest2D[18] skeleton
 
 

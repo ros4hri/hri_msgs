@@ -1,6 +1,6 @@
 # Represents a human facial expression, either in a categorical way, or
 # using the valence/arousal model of emotions
-Header header
+std_msgs/Header header
 
 # the list of expressions is based on Chambers MSc thesis, Bristol Robotics Lab 2020, and includes the six basic emotions in Eckman's model.
 #

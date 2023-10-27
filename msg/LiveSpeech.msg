@@ -2,7 +2,7 @@
 # A series of incremental results might be provided, until a final recognition
 # hypothesis is returned.
 
-Header header
+std_msgs/Header header
 
 string incremental # incremental recognition results
 string final # final recognised text

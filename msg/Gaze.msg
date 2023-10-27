@@ -3,7 +3,7 @@
 #
 # If the sender or receiver IDs are empty, it means that the gaze respectively
 # originates or is targeted to the robot itself.
-Header header
+std_msgs/Header header
 
 string sender
 string receiver

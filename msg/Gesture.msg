@@ -1,5 +1,5 @@
 # Describes body language/attitude/gesture detected from a body.
-Header header
+std_msgs/Header header
 
 # Additional gestures might be added in the future, please open
 # issues/pull requests to suggest new ones.

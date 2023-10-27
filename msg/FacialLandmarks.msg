@@ -2,7 +2,7 @@
 # (0, 0) is at top-left corner of image
 # Features' coordinates are expressed in normalised pixel coordinates 
 # (in the range [0., 1.]), from the top-left corner.
-Header header
+std_msgs/Header header
 
 # Facial landmarks codes
 # Follows dlib and OpenPose convention
@@ -91,7 +91,7 @@ uint8 MOUTH_INNER_BOTTOM_2=66
 uint8 MOUTH_INNER_BOTTOM_3=65
 
 # array of 70 landmark normalized coordinates, one per landmark, ordered per landmarks codes
-NormalizedPointOfInterest2D[] landmarks
+NormalizedPointOfInterest2D[70] landmarks
 
 uint32 height # image height in pixels, that is, number of rows
 uint32 width # image width in pixels, that is, number of columns
