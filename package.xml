@@ -12,5 +12,6 @@
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>message_generation</build_depend>
   <depend>sensor_msgs</depend>
+  <depend>audio_common_msgs</depend>
 
 </package>
