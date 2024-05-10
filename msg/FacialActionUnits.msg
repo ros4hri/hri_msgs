@@ -1,8 +1,7 @@
 # This message the intensity of each actions unit (AU), with their confidence, for a specific face.
 #
 # It follows the naming convention of the  Facial Action Coding System (FACS) developed by Ekman.
-
-Header header
+IdHeader header
 
 # AU codes
 # List taken from https://en.wikipedia.org/wiki/Facial_Action_Coding_System

@@ -1,0 +1,2 @@
+IdHeader header
+bool data

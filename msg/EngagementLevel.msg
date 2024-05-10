@@ -3,7 +3,7 @@
 # to access to the engagement level of a detected human. 
 # It will output one of the five following levels: unknown, disengaged, 
 # engaging, engaged and disengaging.
-Header header  
+IdHeader header  
 
 # unknown: no information is provided about the engagement level 
 uint8 UNKNOWN=0
