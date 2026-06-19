@@ -44,6 +44,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/NormalizedPointOfInterest2D.msg"
   "msg/NormalizedPointOfInterest2DStamped.msg"
   "msg/NormalizedRegionOfInterest2D.msg"
+  "msg/PointOfInterest3D.msg"
+  "msg/PointOfInterest3DStamped.msg"
   "msg/Skeleton2D.msg"
   "msg/SoftBiometrics.msg"
   DEPENDENCIES std_msgs
