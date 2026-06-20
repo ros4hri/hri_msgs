@@ -1,4 +1,5 @@
 # This contains the 3D position of a point of interest.
+# Coordinates are expressed in metric units (meters).
 # header.frame_id identifies the TF frame (eg, 'map').
 # header.stamp is the time of observation.
 # c is a confidence level (between 0. and 1.) associated to that POI.
